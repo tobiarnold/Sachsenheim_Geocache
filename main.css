@@ -13,15 +13,15 @@ body {
 }
 h1 {
     text-align: center;
-   
+ 
 }
 h1 span {
-    background-color: #74b129;
     background-color: #74b129;
     border-radius: 5px 5px 5px 5px;
 }
 p{
    color: ghostwhite;  
+ text-shadow: -1px 0 #74b129, 0 1px #74b129, 1px 0 #74b129, 0 -1px #74b129;
 }
 
 input {
