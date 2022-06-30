@@ -1,20 +1,21 @@
 body {
-     background-image: url("https://raw.githubusercontent.com/tobiarnold/Sachsenheim_Geocache/main/cropped-benjamin-davies-Zm2n2O7Fph4-unsplash.jpg");
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center center;
+     background: url("https://raw.githubusercontent.com/tobiarnold/Sachsenheim_Geocache/main/cropped-benjamin-davies-Zm2n2O7Fph4-unsplash.jpg") no-repeat center center fixed;
     font-family: "Open Sans", Arial;
     text-align: center;
     color: white;
     font-weight: bold;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 h1 {
     text-align: center;
 }
 h1 span {
-    background-color: #45eb09;
+    background-color: #74b129;
     border-radius: 5px 5px 5px 5px;
 }
+
 input {
     position: relative;
     box-sizing: border-box;
