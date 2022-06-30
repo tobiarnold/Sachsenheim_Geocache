@@ -3,12 +3,13 @@ body {
     font-family: "Open Sans", Arial;
     text-align: center;
      position:relative;
-    margin-top: 13%;
+    margin-top: 16%;
     color: white;
     font-weight: bold;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+    }
 }
 h1 {
     text-align: center;
@@ -16,7 +17,11 @@ h1 {
 }
 h1 span {
     background-color: #74b129;
+    background-color: #74b129;
     border-radius: 5px 5px 5px 5px;
+}
+p{
+   color: ghostwhite;  
 }
 
 input {
