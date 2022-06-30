@@ -1,5 +1,5 @@
 body {
-     background: url("https://raw.githubusercontent.com/tobiarnold/Sachsenheim_Geocache/main/cropped-benjamin-davies-Zm2n2O7Fph4-unsplash.jpg") no-repeat center center fixed;
+     background:  url("https://raw.githubusercontent.com/tobiarnold/Sachsenheim_Geocache/main/cropped-benjamin-davies-Zm2n2O7Fph4-unsplash.jpg") no-repeat center center fixed;
     font-family: "Open Sans", Arial;
     text-align: center;
      position:relative;
@@ -62,10 +62,7 @@ button{
 img {
      position: relative;
     margin-top: 35px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
-footer{
-     text-align: left;
-}
 
