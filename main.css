@@ -2,6 +2,8 @@ body {
      background: url("https://raw.githubusercontent.com/tobiarnold/Sachsenheim_Geocache/main/cropped-benjamin-davies-Zm2n2O7Fph4-unsplash.jpg") no-repeat center center fixed;
     font-family: "Open Sans", Arial;
     text-align: center;
+     position:relative;
+    margin-top: 11%;
     color: white;
     font-weight: bold;
     -webkit-background-size: cover;
@@ -10,6 +12,7 @@ body {
 }
 h1 {
     text-align: center;
+   
 }
 h1 span {
     background-color: #74b129;
