@@ -1,0 +1,61 @@
+body {
+    background-image: url("https://green-o-clock.com/wp-content/uploads/2021/04/cropped-benjamin-davies-Zm2n2O7Fph4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    font-family: "Open Sans", Arial;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+}
+h1 span {
+    background-color: #45eb09;
+    border-radius: 5px 5px 5px 5px;
+}
+input {
+    position: relative;
+    box-sizing: border-box;
+     font-size: 20px;
+    height: 50px;
+    padding: 10px 15px;
+}
+input[type="text"]{
+    border:none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+    width: 300px;
+}
+button{
+    margin-top: 20px;
+    border:none;
+    position: relative;
+    outline: none;
+    border-radius: 0 25px 25px 0;
+    width: 120px;
+    height: 50px;
+     background: #ffc107;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: -10px;
+    transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+	font-weight: normal;
+}
+img {
+     position: relative;
+}
+
+footer{
+     text-align: left;
+}
+
