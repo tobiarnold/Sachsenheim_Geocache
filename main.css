@@ -4,9 +4,7 @@ body {
     text-align: center;
      position:relative;
     margin: auto;
-    margin-top: 16%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 12%;
     color: white;
     font-weight: bold;
     -webkit-background-size: cover;
@@ -25,7 +23,7 @@ p{
  text-shadow: -1px 0 #74b129, 0 1px #74b129, 1px 0 #74b129, 0 -1px #74b129;
 }
 .text{
-    margin-bottom: 9%;
+    margin-bottom: 6%;
         
     }   
     
