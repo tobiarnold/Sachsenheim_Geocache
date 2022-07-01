@@ -3,7 +3,7 @@ body {
     font-family: "Open Sans", Arial;
     text-align: center;
      position:relative;
-    margin-top: 16%;
+    margin-top: 10%;
     color: white;
     font-weight: bold;
     -webkit-background-size: cover;
@@ -22,7 +22,7 @@ p{
  text-shadow: -1px 0 #74b129, 0 1px #74b129, 1px 0 #74b129, 0 -1px #74b129;
 }
 .text{
-    margin-bottom: 5%;
+    margin-bottom: 9%;
         
     }   
     
@@ -63,6 +63,6 @@ button{
 }
 img {
      position: relative;
-    margin-top: 4%;
+    margin-top: 6%;
     margin-bottom: 6%;
 }
