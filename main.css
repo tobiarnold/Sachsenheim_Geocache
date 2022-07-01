@@ -13,44 +13,41 @@ body {
 }
 h1 {
     text-align: center;
- 
+
 }
 h1 span {
     background-color: #74b129;
     border-radius: 5px 5px 5px 5px;
 }
 p{
-   color: white;  
+   color: white;
  text-shadow: -1px 0 #74b129, 0 1px #74b129, 1px 0 #74b129, 0 -1px #74b129;
 }
-
-input {
-    position: relative;
-    box-sizing: border-box;
-     font-size: 20px;
-    height: 50px;
-    padding: 10px 15px;
+.nutzereingabe{
+    position:absolute;
+    left:50%;
+    transform: translate(-50% 50%);
 }
+
 input[type="text"]{
+    height: 50px;
     border:none;
     outline: none;
     padding: 0 25px;
     border-radius: 25px 0 0 25px;
-    width: 250px;
 }
 button{
-    
+     box-sizing: border-box;
     border:none;
+    left: -5px;
     position: relative;
     outline: none;
     border-radius: 0 25px 25px 0;
-    width: 120px;
     height: 50px;
      background: #ffc107;
     cursor: pointer;
     display: inline-block;
     padding: 10px 15px;
-    font-size: 20px;
     margin-left: -10px;
     transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
@@ -61,8 +58,8 @@ button{
 }
 img {
      position: relative;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 
