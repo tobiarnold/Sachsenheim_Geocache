@@ -8,7 +8,7 @@ function generatePDF() {
     doc.setFillColor(255, 200, 45);
     doc.rect(0, 0, 250, 500, "F");
     var img = document.getElementById('bild');
-    doc.addImage(img, 'JPEG', 90, 25);
+    doc.addImage(img, 'JPEG', 90, 35);
     doc.text("Urkunde Geocache", 105, 90, null, null, "center");
     doc.setFontSize(16);
     var input_user=document.getElementById("input1").value;
