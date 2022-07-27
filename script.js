@@ -16,7 +16,7 @@ function generatePDF() {
     var img = document.getElementById('bild');
     doc.addImage(img, 'JPEG', 90, 10);
     doc.setFontSize(14)
-    var str = "Wir sind die Initiative „Sachsenheim wird klimaneutral bis 2035“,\n die den Klimawandel vor Ort mutig angehen und eine\n nachhaltige Zukunft für uns alle schaffen will.";
+    var str = "Wir sind die Initiative „Sachsenheim wird klimaneutral bis 2035“,\n die den Klimawandel vor Ort mutig angehen und eine\n      nachhaltige Zukunft für uns alle schaffen will.";
     doc.text(str, 105, 130, null, null, "center"); 
     doc.setFontSize(16)
     doc.text("Du möchtest mehr über uns erfahren?", 100, 160, "center");  
